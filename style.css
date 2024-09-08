@@ -1,0 +1,161 @@
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+.table_container{
+    overflow-x: scroll;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    min-width: 1100px;
+}
+th, td {
+    border: solid 1px white;
+    padding: 8px;
+    text-wrap: wrap;
+}
+td a{
+    display: inline-block;
+}
+th {
+    background-color: white;
+    color: #253B80;
+}
+tr{
+    background-color: #DAE5EC;
+    transition: all 0.2s;
+}
+tr:hover{
+    background-color: #B8D1DC;
+}
+.first_col{
+    background-color: #DAE5EC;
+}
+/* td{
+    display: flex;
+    flex-direction: row;
+}  */
+
+.due-date {
+    background-color: #cccccc;
+    border-radius: 5px;
+    padding: 2px 6px;
+}
+
+.btn {
+    background-color: #e7f3ff;
+    border-radius: 5px;
+    padding: 2px 6px;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    
+    transition: all 0.5s;
+}
+.btn:hover {
+    background-color: #253B80;
+    color: white;
+}
+
+#course_title{
+    color: #253B80;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+.curr_assignments{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.curr_assignments .btn{
+    padding: 10px;
+    background-color: white;
+    color: #253B80;
+    border: solid 1px #253B80;
+}
+
+.curr_assignments .btn:hover{
+    background-color: #253B80;
+    color: white;
+}
+.curr_assignments .btn .due_hw{
+    background-color: #253B80;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    width: fit-content;
+    transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 12px; 
+    height: 12px; 
+}
+
+
+::-webkit-scrollbar-track {
+    background: #253c806e; 
+    border-radius: 10px; 
+}
+
+
+::-webkit-scrollbar-thumb {
+    background:  #253c80a8; 
+    border-radius: 10px; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background:  #253B80; 
+}
+
+
+
+
+@media screen and (min-width: 1116px) {
+    
+    .table_container{
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+
+    body{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .curr_assignments{
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+        justify-content: center;
+    }
+}
