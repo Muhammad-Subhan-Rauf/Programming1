@@ -147,11 +147,6 @@ tr:hover{
 @media screen and (max-width: 768px) 
 {
 
-    body{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
     .curr_assignments{
         display: flex;
         flex-direction: column;
