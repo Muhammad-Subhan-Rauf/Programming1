@@ -16,11 +16,11 @@ const Comp102 = () => {
 
   return (
     <div className="flex bg-gray-200 items-start justify-center h-screen w-full">
-      <div className="p-8 bg-white rounded-lg shadow-lg max-w-md w-full border border-blue-500 mt-10 md:mt-20">
+      <div className="p-8 bg-white rounded-lg shadow-lg max-w-[80%] w-full border border-blue-500 mt-10 md:mt-20">
         <h1 className="text-2xl md:text-2xl font-bold text-center text-blue-500 mb-4">
           Comp 102 Calendar
         </h1>
-      </div>
+      
       
       <HeaderContent data={headerData} />
 
@@ -28,6 +28,8 @@ const Comp102 = () => {
 
 
       <CalendarTable weeks={weeks} />
+      </div>
+      
 
     </div>
   );

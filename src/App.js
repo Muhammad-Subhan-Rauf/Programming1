@@ -1,7 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import './Comp102'
 import Comp102 from './Comp102';
+import './index.css';
+
 
 function App() {
   return (
