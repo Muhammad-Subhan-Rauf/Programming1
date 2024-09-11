@@ -1,0 +1,230 @@
+[
+    {
+        "weekNumber": 1,
+        "rows": [
+            {
+                "date": "Wed 20/28",
+                "lecture": {
+                    "title": "Welcome",
+                    "links": [
+                        {
+                            "label": "Recording",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Slides (1pp)",
+                            "href": "#"
+                        }
+                    ]
+                },
+                "textbook": [],
+                "labLinks": [
+                    {
+                        "label": "Disc 00: Getting Started",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Solutions",
+                        "href": "#"
+                    }
+                ],
+                "homework": null
+            },
+            {
+                "date": "Fri 8/30",
+                "lecture": {
+                    "title": "Functions",
+                    "links": [
+                        {
+                            "label": "Videos",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Recording",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Slides (1pp)",
+                            "href": "#"
+                        },
+                        {
+                            "label": "02.py",
+                            "href": "#"
+                        }
+                    ]
+                },
+                "textbook": [
+                    {
+                        "label": "Ch. 1.1",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Ch. 1.2",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Ch. 1.1",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Ch. 1.3",
+                        "href": "#"
+                    }
+                ],
+                "labLinks": [
+                    {
+                        "label": "Lab 00: Getting Started",
+                        "href": "#"
+                    }
+                ],
+                "homework": null
+            }
+        ]
+    },
+    {
+        "weekNumber": 2,
+        "rows": [
+            {
+                "date": "Mon 9/2",
+                "lecture": {
+                    "title": "No Lecture: Labor Day",
+                    "links": []
+                },
+                "textbook": [],
+                "labLinks": [],
+                "homework": null
+            },
+            {
+                "date": "Wed 9/4",
+                "lecture": {
+                    "title": "Control",
+                    "links": [
+                        {
+                            "label": "Videos",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Recording",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Slides (1pp)",
+                            "href": "#"
+                        },
+                        {
+                            "label": "03.py",
+                            "href": "#"
+                        }
+                    ]
+                },
+                "textbook": [
+                    {
+                        "label": "Ch. 1.4",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Ch. 1.5",
+                        "href": "#"
+                    }
+                ],
+                "labLinks": [
+                    {
+                        "label": "Lab 01: Functions",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Disc 01: Control, Environment Diagrams",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Solutions",
+                        "href": "#"
+                    }
+                ],
+                "homework": {
+                    "label": "HW 01: Functions, Control",
+                    "href": "#",
+                    "dueDate": "Due Mon 9/9"
+                }
+            }
+        ]
+    },
+    {
+        "weekNumber": 3,
+        "rows": [
+            {
+                "date": "Wed 20/28",
+                "lecture": {
+                    "title": "Welcome",
+                    "links": [
+                        {
+                            "label": "Recording",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Slides (1pp)",
+                            "href": "#"
+                        }
+                    ]
+                },
+                "textbook": [],
+                "labLinks": [
+                    {
+                        "label": "Disc 00: Getting Started",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Solutions",
+                        "href": "#"
+                    }
+                ],
+                "homework": null
+            },
+            {
+                "date": "Fri 8/30",
+                "lecture": {
+                    "title": "Functions",
+                    "links": [
+                        {
+                            "label": "Videos",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Recording",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Slides (1pp)",
+                            "href": "#"
+                        },
+                        {
+                            "label": "02.py",
+                            "href": "#"
+                        }
+                    ]
+                },
+                "textbook": [
+                    {
+                        "label": "Ch. 1.1",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Ch. 1.2",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Ch. 1.3",
+                        "href": "#"
+                    }
+                ],
+                "labLinks": [
+                    {
+                        "label": "Lab 00: Getting Started",
+                        "href": "#"
+                    }
+                ],
+                "homework": null
+            }
+        ]
+    }
+]

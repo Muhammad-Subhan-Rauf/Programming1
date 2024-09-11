@@ -1,0 +1,22 @@
+{
+    "courseTitle": "COMP 102: Introduction to Programming",
+    "semester": "Fall 2024",
+    "announcements": ["No Announcements yet"],
+    "assignments": [
+        {
+            "title": "Disc 00: Getting Started",
+            "dueDate": "9/9/24",
+            "link": "#"
+        },
+        {
+            "title": "Disc 00: Getting Started",
+            "dueDate": "9/9/24",
+            "link": "#"
+        },
+        {
+            "title": "Disc 00: Getting Started",
+            "dueDate": "9/9/24",
+            "link": "#"
+        }
+    ]
+}
