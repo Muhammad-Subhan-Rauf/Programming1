@@ -36,9 +36,11 @@ const Row = ({ date, lecture, textbook, labLinks, homework }) => {
                         <br />
                         <span className="due-date">{homework.dueDate}</span>
                         <br />
-                        <a className="btn" href={homework.solutionHref}>
-                            {homework.solutionLabel}
-                        </a>
+                        {homework.solutionLabel && (
+                            <a className="btn" href={homework.solutionHref}>
+                                {homework.solutionLabel}
+                            </a>
+                        )}
                     </>
                 )}
             </td>
