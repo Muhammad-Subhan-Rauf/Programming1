@@ -33,7 +33,12 @@ const Row = ({ date, lecture, textbook, labLinks, homework }) => {
                         <a className="btn" href={homework.href}>
                             {homework.label}
                         </a>
+                        <br />
                         <span className="due-date">{homework.dueDate}</span>
+                        <br />
+                        <a className="btn" href={homework.solutionHref}>
+                            {homework.solutionLabel}
+                        </a>
                     </>
                 )}
             </td>
