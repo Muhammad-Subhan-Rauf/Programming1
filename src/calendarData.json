@@ -31,6 +31,34 @@
                 "homework": null
             },
             {
+                "date": "Wed 20/28",
+                "lecture": {
+                    "title": "Welcome",
+                    "links": [
+                        {
+                            "label": "Recording",
+                            "href": "#"
+                        },
+                        {
+                            "label": "Slides (1pp)",
+                            "href": "#"
+                        }
+                    ]
+                },
+                "textbook": [],
+                "labLinks": [
+                    {
+                        "label": "Disc 00: Getting Started",
+                        "href": "#"
+                    },
+                    {
+                        "label": "Solutions",
+                        "href": "#"
+                    }
+                ],
+                "homework": null
+            },
+            {
                 "date": "Fri 8/30",
                 "lecture": {
                     "title": "Functions",

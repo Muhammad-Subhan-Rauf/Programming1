@@ -6,7 +6,7 @@
 
 
 .table_container{
-    overflow-x: scroll;
+    overflow: auto;
 }
 table {
     width: 100%;
@@ -22,6 +22,7 @@ th, td {
 td a{
     display: inline-block;
 }
+td:nth-child(3)
 th {
     background-color: white;
     color: #253B80;
@@ -137,12 +138,7 @@ tr:hover{
 
 
 
-@media screen and (min-width: 1116px) {
-    
-    .table_container{
-        overflow: hidden;
-    }
-}
+
 
 @media screen and (max-width: 768px) 
 {

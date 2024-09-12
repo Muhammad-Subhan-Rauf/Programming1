@@ -5,7 +5,7 @@ import weeksData from './calendarData.json';
 import headerData from './headerContent.json';
 
 
-import './style.css'; // Assuming the styles are in this file
+import './style.css'; 
 const Comp102 = () => {
   const [weeks, setWeeks] = useState([]);
 
@@ -15,7 +15,7 @@ const Comp102 = () => {
   }, []);
 
   return (
-    <div className="flex bg-gray-200 items-start justify-center h-screen w-full">
+    <div className="flex bg-gray-200 items-start justify-center min-h-screen w-full pb-12">
       <div className="p-8 bg-white rounded-lg shadow-lg max-w-[80%] w-full border border-blue-500 mt-10 md:mt-20">
         <h1 className="text-2xl md:text-2xl font-bold text-center text-blue-500 mb-4">
           Comp 102 Calendar
